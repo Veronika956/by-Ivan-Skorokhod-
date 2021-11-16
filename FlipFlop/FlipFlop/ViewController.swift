@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     func flipButton (emoji: String, button: UIButton) {
         if button.currentTitle == emoji {
             button.setTitle("", for: .normal)
-            button.backgroundColor = #colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 1)
-        }else {
+            button.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+        }else{
             button.setTitle(emoji, for: .normal)
             button.backgroundColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1)
         }
